@@ -17,6 +17,12 @@ function moveCounters() {
     counters.forEach(function(val, index){
         val.moveCounter();
         coliderz(val, index);
+        noStroke();
+        fill(200);
+        rect(width / 2 - 100, height / 2 - 25, 200, 50, 10);
+        fill(15, 47, 108);
+        textSize(30);
+        text("E - coordina", width / 2 - 80, height / 2 + 10);
         //val.showCounter();
         
     });

@@ -17,7 +17,7 @@ class MovingCounter {
     comprobar(itm) {
         if(itm.posX > this.posX - 70 && itm.posX < this.posX + 70 &&
             itm.posY > this.posY - 150 && itm.posY < this.posY + 150) {
-                stroke(255);
+                stroke(15, 47, 108);
                 strokeWeight(1);
                 line(itm.posX, itm.posY, this.posX, this.posY);
         }
